@@ -118,10 +118,7 @@ export default function define(runtime, observer) {
     [
       'miserables.json',
       {
-        url: new URL(
-          './files/31d904f6e21d42d4963ece9c8cc4fbd75efcbdc404bf511bc79906f0a1be68b5a01e935f65123670ed04e35ca8cae3c2b943f82bf8db49c5a67c85cbb58db052.json',
-          import.meta.url
-        ),
+        url: new URL('./files/data.json', import.meta.url),
         mimeType: 'application/json',
         toString,
       },

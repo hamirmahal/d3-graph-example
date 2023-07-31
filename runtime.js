@@ -2976,7 +2976,7 @@ const Library = Object.assign(
             ).csv({ typed: !0 }),
           miserables: () =>
             new FileAttachment(
-              'https://static.observableusercontent.com/files/31d904f6e21d42d4963ece9c8cc4fbd75efcbdc404bf511bc79906f0a1be68b5a01e935f65123670ed04e35ca8cae3c2b943f82bf8db49c5a67c85cbb58db052'
+              'https://static.observableusercontent.com/files/data'
             ).json(),
           olympians: () =>
             new FileAttachment(
